@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Uses a set of registers to divide the clock, and then some combinational logic to convert from binary to decimal for the display.
 
 ## How to test
 
-Explain how to use your project
+After reset, the counter should increase by one every second with a 10MHz clock.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Display 7 segment
